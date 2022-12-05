@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 /* variables 
-Css primary color text.
-https://css-tricks.com/neumorphism-and-css/*/
+Css primary and neutral color text/*/
 
 :root {
   font-size: 15px;
@@ -28,7 +27,7 @@ in class demo */
 }
 /* Css variable. colors have been set at the root:https://www.freecodecamp.org/news/everything-you-need-to-know-about-css-variables-c74d922ea855/ */
 body {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,4 +35,27 @@ body {
   background-color: var(--prim-dark-blue);
   color: var(--neu-white);
   font-weight: 400;
+}
+/* stat cards*/
+main {
+  min-width: 600px;
+  z-index: 1;
+  display: flex;
+  margin: 1em;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 5.85em 7em 5.85em 5.85em;
+  width: 570px;
+  min-width: 300px;
+  background: var(--prim-sat-blue);
+  border-radius: 10px 0 0 10px;
+}
+
+section h1 {
+  color: var(--neu-white);
+  font-size: 2.25rem;
+  margin-bottom: 0.75em;
+  font-weight: 700;
 }
