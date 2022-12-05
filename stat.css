@@ -26,3 +26,14 @@ in class demo */
   padding: 0;
   box-sizing: border-box;
 }
+/* Css variable. colors have been set at the root:https://www.freecodecamp.org/news/everything-you-need-to-know-about-css-variables-c74d922ea855/ */
+body {
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--prim-dark-blue);
+  color: var(--neu-white);
+  font-weight: 400;
+}
