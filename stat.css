@@ -111,3 +111,24 @@ section ul p {
   height: 100%;
   mix-blend-mode: color-burn;
 }
+/* footer */
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75rem;
+  line-height: 20px;
+  text-align: center;
+  color: var(--neu-more-trans-white);
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--neu-trans-white);
+  font-weight: bold;
+}
+
+.attribution a:hover {
+  color: var(--prim-violet);
+}
