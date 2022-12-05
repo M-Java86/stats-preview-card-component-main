@@ -13,8 +13,8 @@ Css primary and neutral color text/*/
   --neu-trans-white: hsla(0, 0%, 100%, 0.75);
   --neu-more-trans-white: hsla(0, 0%, 100%, 0.6);
 
-  --bg-violet: hsl(277deg, 100%, 50%, 0.42);
-  --bg-light-violet: hsl(293deg, 42%, 35%, 0.24);
+  --background-violet: hsl(277deg, 100%, 50%, 0.42);
+  --background-light-violet: hsl(293deg, 42%, 35%, 0.24);
 }
 /* universal selectors,pseudo element.
 in class demo */
@@ -58,4 +58,35 @@ section h1 {
   font-size: 2.25rem;
   margin-bottom: 0.75em;
   font-weight: 700;
+}
+section h1 span {
+  color: var(--prim-violet);
+}
+
+section .text {
+  margin-right: 2em;
+}
+
+section .info {
+  color: var(--neu-trans-white);
+  line-height: 1.5em;
+  margin-bottom: 5em;
+}
+section ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  letter-spacing: 1px;
+}
+
+section ul h2 {
+  color: var(--neu-white);
+  margin-bottom: 0.3em;
+}
+
+section ul p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--neu-more-trans-white);
+  text-transform: uppercase;
+  font-size: 0.75rem;
 }
