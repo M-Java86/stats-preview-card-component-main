@@ -17,5 +17,12 @@ https://css-tricks.com/neumorphism-and-css/*/
   --bg-violet: hsl(277deg, 100%, 50%, 0.42);
   --bg-light-violet: hsl(293deg, 42%, 35%, 0.24);
 }
-
-/* defaults */
+/* universal selectors,pseudo element.
+in class demo */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
