@@ -90,3 +90,24 @@ section ul p {
   text-transform: uppercase;
   font-size: 0.75rem;
 }
+.bg-img {
+  min-height: 10em;
+  width: 540px;
+  min-width: 200px;
+  background: url(images/image-header-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+}
+
+.overlay {
+  background: var(--bg-violet);
+  height: 100%;
+}
+
+.overlay-2 {
+  background: var(--bg-light-violet);
+  height: 100%;
+  mix-blend-mode: color-burn;
+}
